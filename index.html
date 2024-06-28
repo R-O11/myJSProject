@@ -1,0 +1,84 @@
+<!-- 
+The project is done by Nikita Sigalov and Razi Kabiya
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Phone Book</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='./styles/style.css'>
+</head>
+
+<body>
+  <header>
+    <img id="phone_book_icon" src="./images/phone_book_icon.png" alt="phone_book_icon">
+    <h1>Phone Book</h1>
+    <div class="form-popup" id="myForm">
+      <form action="/action_page.php" class="form-container">
+
+        <label for="name"><b>Name</b></label>
+        <input type="text" placeholder="Enter Name" name="name" id="name" required>
+
+        <button type="button" class="btn" onclick="">search</button>
+        <button type="reset" class="btn" onclick="">Reset</button>
+        <button type="button" class="btn cancel" onclick="">Close</button>
+      </form>
+      <div class="btns">
+        <button class="btn">Add</button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <ul>
+      <li>
+        <div class="Book">
+          <div class="person_name">Nikita</div>
+          <div class="Person_Phone">05461256</div>
+        </div>
+        <div class="btns">
+          <button class="btn">edit</button>
+          <button class="btn">delete</button>
+        </div>
+      </li>
+      <li>
+        <div class="Book">
+          <div class="person_name">Razi</div>
+          <div class="Person_Phone">05487498</div>
+        </div>
+        <div class="btns">
+          <button class="btn">edit</button>
+          <button class="btn">delete</button>
+        </div>
+      </li>
+      <li>
+        <div class="Book">
+          <div class="person_name">Person 3</div>
+          <div class="Person_Phone">05469295</div>
+        </div>
+        <div class="btns">
+          <button class="btn">edit</button>
+          <button class="btn">delete</button>
+        </div>
+      </li>
+      <li>
+        <div class="Book">
+          <div class="person_name">Person 4</div>
+          <div class="Person_Phone">05469295</div>
+        </div>
+        <div class="btns">
+          <button class="btn">edit</button>
+          <button class="btn">delete</button>
+        </div>
+      </li>
+    </ul>
+  </main>
+  <footer>
+    <p>Nikita Sigalov And Razi Kabiya&#xa9;</p>
+  </footer>
+  <script src='./javascript/javascript.js'></script>
+</body>
+
+</html>
